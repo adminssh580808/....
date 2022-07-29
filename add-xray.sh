@@ -101,7 +101,7 @@ alterId        : 0
 Security       : auto
 network        : ws
 Key Trojan     : ${uuid}
-path           : /vmess
+path vmess     : /vmess
 path Vless     : /vless
 path Vless gRPC: /vlgRPC
 Path Trojan-Go : /Trojan
