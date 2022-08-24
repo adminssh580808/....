@@ -10,6 +10,13 @@ CYAN="\e[0;36m"
 LIGHT="\e[0;37m"
 NC="\e[0m"
 
+echo -e " ${YELLOW} ========================================================= ${NC}"
+ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+CITY=$(curl -s ipinfo.io/city )
+IPVPS=$(curl -s ipinfo.io/ip )
+echo -e "    \e[032;1m ISP Name:\e[0m $ISP"
+echo -e "    \e[032;1m CITY:\e[0m $CITY"
+echo -e "    \e[033;1m IP VPS:\e[0m $IPVPS"
 echo -e ""
 echo -e " ${YELLOW} ========================================================= ${NC}"
 echo -e " ${YELLOW} --------------------------------------------------------- ${NC}"
