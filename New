@@ -10,9 +10,9 @@ CYAN="\e[0;36m"
 LIGHT="\e[0;37m"
 NC="\e[0m"
 
-echo -e " ${YELLOW} ========================================================= ${NC}"
+echo -e "  ${YELLOW}======================================================== ${NC}"
 echo -e ""
-echo -e " ${YELLOW} -------=[${NC} ${RED}AUTOSCRIPT PREMIUM BY SSHINJECTOR.NET${NC} ${YELLOW}]=------- ${NC}"
+echo -e "  ${YELLOW}------=[${NC} AUTO SCRIPT PREMIUM BY SSHINJECTOR.NET${NC} ]=------ ${NC}"
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 IPVPS=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0'`;
