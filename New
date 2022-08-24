@@ -16,9 +16,9 @@ echo -e "  ${YELLOW}------=[${NC} ${RED}AUTO SCRIPT PREMIUM BY SSHINJECTOR.NET${
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 IPVPS=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0'`;
-echo -e "    \e[032;1m ISP NAME:\e[0m ${ISP} "
-echo -e "    \e[032;1m CITY:\e[0m ${CITY} "
-echo -e "    \e[032;1m IP VPS:\e[0m ${IPVPS} "
+echo -e "    ${GREEN} ISP NAME:${NC}${GREEN} ${ISP}${NC} "
+echo -e "    ${GREEN} CITY:${NC}${LIGHT} ${CITY}${NC} "
+echo -e "    ${GREEN} IP VPS:${GREEN}${LIGHT} ${IPVPS}${NC} "
 echo -e ""
 echo -e " ${YELLOW} -------------------=[${NC} ${RED}XRAY SERVICE${NC} ${YELLOW}]=------------------- ${NC}"
 echo -e "    ${GREEN} 1${NC}${LIGHT})${NC} ${LIGHT}PANEL XRAY VMESS${NC}"
