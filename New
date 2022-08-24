@@ -45,7 +45,7 @@ echo -e "       ${GREEN} x${NC}${LIGHT})${NC} ${LIGHT}EXIT${NC}"
 echo -e " ${YELLOW} -------------------------------------------------------- ${NC}"
 echo -e " ${YELLOW} ======================================================== ${NC}"
 echo -e ""
-echo -e "     ${LIGHT}Select From Options${NC}"
-read -p "     ${LIGHT}[1-17 or type x to exit the menu] : ${NC}" menu
+echo -e "    ${LIGHT} Select From Options${NC}"
+read -p "    ${LIGHT} [1-17 or type x to exit the menu] : ${NC}" menu
 echo -e ""
 case $menu in
