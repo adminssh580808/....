@@ -1,5 +1,5 @@
 #!/bin/bash
-# REMODE AUTO SCRIPT
+# REMODE AUTO
 
 clear
 RED="\e[031;1m"
