@@ -1,4 +1,5 @@
 #!/bin/bash
+# REMODE
 
 clear
 RED="\e[031;1m"
