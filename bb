@@ -1,5 +1,5 @@
 #!/bin/bash
-# REMODE
+# REMODE SCRIPT
 
 clear
 RED="\e[031;1m"
