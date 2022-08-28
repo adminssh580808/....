@@ -13,6 +13,7 @@ NC="\e[0m"
 echo -e "  ${YELLOW}======================================================== ${NC}"
 echo -e ""
 echo -e "  ${YELLOW}------=[${NC} ${RED}AUTO SCRIPT PREMIUM BY SSHINJECTOR.NET${NC} ${YELLOW}]=------ ${NC}"
+DOMAIN=$(cat /etc/xray/domain.conf)
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
