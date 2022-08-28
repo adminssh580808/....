@@ -15,10 +15,19 @@ echo -e ""
 echo -e "  ${YELLOW}------=[${NC} ${RED}AUTO SCRIPT PREMIUM BY SSHINJECTOR.NET${NC} ${YELLOW}]=------ ${NC}"
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
-IP=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0'`;
-echo -e "    ${GREEN} ISP NAME:${NC}${GREEN} ${ISP}${NC} "
-echo -e "    ${GREEN} CITY:${NC}${LIGHT} ${CITY}${NC} "
-echo -e "    ${GREEN} IP VPS:${GREEN}${LIGHT} ${IP}${NC} "
+WKT=$(curl -s ipinfo.io/timezone )
+IP=$(curl -s ipinfo.io/ip )
+JAM=$(date +"%T")
+HARI=$(date +"%A")
+TGL=$(date +"%d-%B-%Y")
+echo -e "    ${GREEN} DOMAIN :${NC}${LIGHT} ${DOMAIN} ${NC}"
+echo -e "    ${GREEN} IP VPS :${NC}${LIGHT} ${IP} ${NC}"
+echo -e "    ${GREEN} ISP    :${NC}${LIGHT} ${ISP} ${NC}"
+echo -e "    ${GREEN} DAY    :${NC}${LIGHT} ${HARI} ${NC}"
+echo -e "    ${GREEN} DATE   :${NC}${LIGHT} ${TGL} ${NC}"
+echo -e "    ${GREEN} TIME   :${NC}${LIGHT} ${JAM} ${NC}"
+echo -e "    ${GREEN} CITY   :${NC}${LIGHT} ${CITY} ${NC}"
+echo -e "    ${GREEN} ZONE   :${NC}${LIGHT} ${WKT} ${NC}"
 echo -e ""
 echo -e " ${YELLOW} -------------------=[${NC} ${RED}XRAY SERVICE${NC} ${YELLOW}]=------------------- ${NC}"
 echo -e "    ${GREEN} 1${NC}${LIGHT})${NC} ${LIGHT}PANEL XRAY VMESS${NC}"
