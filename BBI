@@ -21,14 +21,15 @@ IP=$(curl -s ipinfo.io/ip )
 JAM=$(date +"%T")
 HARI=$(date +"%A")
 TGL=$(date +"%d-%B-%Y")
-echo -e "         ${GREEN} ISP    :${NC}${LIGHT} ${ISP} ${NC}"
-echo -e "         ${GREEN} DOMAIN :${NC}${LIGHT} ${DOMAIN} ${NC}"
-echo -e "         ${GREEN} IP VPS :${NC}${LIGHT} ${IP} ${NC}"
-echo -e "         ${GREEN} DAY    :${NC}${LIGHT} ${HARI} ${NC}"
-echo -e "         ${GREEN} DATE   :${NC}${LIGHT} ${TGL} ${NC}"
-echo -e "         ${GREEN} TIME   :${NC}${LIGHT} ${JAM} ${NC}"
-echo -e "         ${GREEN} CITY   :${NC}${LIGHT} ${CITY} ${NC}"
-echo -e "         ${GREEN} ZONE   :${NC}${LIGHT} ${WKT} ${NC}"
+echo -e ""
+echo -e "          ${GREEN} ISP    :${NC}${LIGHT} ${ISP} ${NC}"
+echo -e "          ${GREEN} DOMAIN :${NC}${LIGHT} ${DOMAIN} ${NC}"
+echo -e "          ${GREEN} IP VPS :${NC}${LIGHT} ${IP} ${NC}"
+echo -e "          ${GREEN} DAY    :${NC}${LIGHT} ${HARI} ${NC}"
+echo -e "          ${GREEN} DATE   :${NC}${LIGHT} ${TGL} ${NC}"
+echo -e "          ${GREEN} TIME   :${NC}${LIGHT} ${JAM} ${NC}"
+echo -e "          ${GREEN} CITY   :${NC}${LIGHT} ${CITY} ${NC}"
+echo -e "          ${GREEN} ZONE   :${NC}${LIGHT} ${WKT} ${NC}"
 echo -e ""
 echo -e " ${YELLOW} -------------------=[${NC} ${RED}XRAY SERVICE${NC} ${YELLOW}]=------------------- ${NC}"
 echo -e "    ${GREEN} 1${NC}${LIGHT})${NC} ${LIGHT}PANEL XRAY VMESS${NC}"
